@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="healthy.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Healthy Corner</title>
+    <script src="healthy.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <img src="/logo3.jpg" height="60" width="90" align="left" alt="" />
+      <h1>Healthy Corner</h1>
+
+      <div id="search-section">
+        <label for="search-bar">Search for Healthy Options:</label>
+        <input type="text" id="search-bar" placeholder="Search..." />
+        <button id="search-button">Search</button>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#fitness">Fitness</a>
+      <a href="#nutrition">Nutrition</a>
+      <a href="#wellness">Wellness</a>
+      <a href="#contact">Contact</a>
+      <a href="#order">Order</a>
+    </nav>
+
+    <main>
+      <section id="home">
+        <h2>Welcome to Healthy Corner!</h2>
+        <p>
+          Discover a wealth of information on fitness, nutrition, and wellness
+          to lead a healthier life.
+        </p>
+      </section>
+
+      <section id="fitness">
+        <h2>Fitness</h2>
+        <p>Explore our fitness tips and workouts to stay active and fit.</p>
+        <p>
+          Whether you're a beginner or a fitness enthusiast, we have tips and
+          routines tailored for everyone. From strength training to cardio, find
+          the right workout for your fitness goals.
+        </p>
+        <img src="/nut3.jpg" alt="Fitness Image" />
+        <img src="/website images.jpg" alt="Fitness Image" />
+
+        <!-- Add content boxes for Workouts 1, 2, 3, and 4 -->
+
+        <!-- Add a button to show all workouts -->
+
+        <div class="content-box">
+          <h3>Workout 1</h3>
+          <p>
+            Start your fitness journey with a full-body workout that combines
+            strength training and cardio. This workout includes exercises like
+            squats, push-ups, lunges, and jumping jacks. Perform each exercise
+            for 3 sets of 12 repetitions with minimal rest between sets for an
+            effective workout.
+          </p>
+          <img src="/wrk2.jpg" alt="jumps" />
+          <img src="/wrk3.jpg" alt="push-ups" />
+          <img src="/wrk4.jpg" alt="" />
+          <img src="/wrk5.jpg" alt="" />
+          <p>
+            Remember to warm up before starting and cool down after completing
+            the workout to prevent injuries and promote flexibility. Adjust the
+            intensity based on your fitness level and gradually increase the
+            difficulty as you progress.
+          </p>
+        </div>
+
+        <div class="content-box">
+          <h3>Workout 2</h3>
+          <p>
+            Take your fitness routine to the next level with this high-intensity
+            interval training (HIIT) workout. Incorporate exercises like
+            burpees, mountain climbers, and planks. Perform each exercise for 30
+            seconds with a 15-second rest between exercises. Repeat the circuit
+            for a total of three rounds.
+          </p>
+          <img src="/wrk6.jpg" alt="" />
+          <img src="/wk1.png" alt="" />
+          <p>
+            This workout is designed to boost your metabolism and improve
+            cardiovascular endurance. Adjust the workout duration and intensity
+            based on your fitness level and goals.
+          </p>
+        </div>
+
+        <div class="content-box">
+          <h3>Workout 3</h3>
+          <p>
+            Focus on building strength and muscle with this weightlifting
+            workout. Use dumbbells or barbells for exercises like bench press,
+            deadlifts, and bicep curls. Aim for 4 sets of 8-10 repetitions for
+            each exercise, gradually increasing the weight as you get stronger.
+          </p>
+          <img src="/wrk.jpg" alt="" />
+          <img src="/wrk7.jpg" alt="" />
+          <p>
+            Ensure proper form during each exercise to prevent injuries. This
+            workout is suitable for individuals looking to enhance muscle
+            definition and overall strength.
+          </p>
+        </div>
+
+        <div class="content-box">
+          <h3>Workout 4</h3>
+          <p>
+            Improve your flexibility and core strength with this yoga-inspired
+            workout. Include poses such as downward dog, warrior poses, and
+            planks. Hold each pose for 30 seconds to 1 minute, focusing on
+            controlled breathing and mindful movement.
+          </p>
+          <img src="/wrk4.jpg" alt="" />
+          <img src="wrk6.jpg" alt="" />
+          <p>
+            This workout is great for relieving stress and promoting overall
+            well-being. Adjust the difficulty of poses based on your yoga
+            experience and flexibility level.
+          </p>
+        </div>
+
+        <button id="hide-workouts-button">Hide Workouts</button>
+      </section>
+
+      <section id="nutrition">
+        <h2>Nutrition</h2>
+        <p>Learn about healthy eating habits and nutritious recipes.</p>
+        <p>
+          Discover the benefits of a balanced diet and explore our collection of
+          delicious and nutritious recipes. From smoothie ideas to wholesome
+          meals, we've got your nutrition journey covered.
+        </p>
+        <img src="/nutrisian.jpg" alt="Nutrition Image" />
+        <img src="/nut2.jpg" alt="Nutrition Image" />
+
+        <div class="content-box">
+          <h3>Recipe 1: Avocado Toast</h3>
+          <p>
+            Simple and nutritious, avocado toast is perfect for a quick
+            breakfast or a healthy snack. Mash ripe avocados and spread over
+            whole-grain toast. Top with salt, pepper, and your favorite herbs.
+          </p>
+          <img src="/Avocado Toast2.jpg" alt="Avocado Toast" />
+          <img src="/Avocado Toast.jpg" alt="Avocado Toast" />
+          <img src="/avacado3.jpg" alt="Avocado Toast" />
+          <!-- Add Buy Button and Cart Item -->
+  <div class="recipe-actions">
+    <button class="buy-button" onclick="addToCart('Avocado Toast', 1)">Buy Now</button>
+  </div>
+</div>
+        </div>
+
+        <div class="content-box">
+          <h3>Recipe 2: Berry Smoothie</h3>
+          <p>
+            A refreshing and energizing smoothie, ideal for breakfast or a
+            midday snack. Blend together a mix of berries, Greek yogurt, honey,
+            and a splash of almond milk.
+          </p>
+          <img src="/Berry Smoothie.jpg" alt="Berry Smoothie" />
+          <img src="/Berry Smoothie2.jpg" alt="Berry Smoothie" />
+          <img src="/berry3.jpg" alt="Berry Smoothie" />
+          <div class="recipe-actions">
+            <button class="buy-button" onclick="addToCart('Berry Smoothie', 2)">Buy Now</button>
+          </div>
+          <!-- Add this where you want to display the cart icon, e.g., in your navigation bar -->
+<div id="cart-icon">🛒</div>
+
+        </div>
+
+        <div class="content-box">
+          <h3>Recipe 3: Quinoa Salad</h3>
+          <p>
+            This quinoa salad is both hearty and healthy. Mix cooked quinoa with
+            diced vegetables, feta cheese, and a lemon-olive oil dressing.
+          </p>
+          <img src="/Quinoa Salad2.jpg" alt="Quinoa Salad" />
+          <img src="/Quinoa Salad.jpg" alt="Quinoa Salad" />
+          <img src="/quinoa3.jpg" alt="Quinoa Salad" />
+          <!-- Add Buy Button and Cart Item -->
+  <div class="recipe-actions">
+    <button class="buy-button" onclick="addToCart('Quinoa Salad', 3)">Buy Now</button>
+  </div>
+  <!-- Add this where you want to display the cart icon, e.g., in your navigation bar -->
+<div id="cart-icon">🛒</div>
+
+</div>
+        </div>
+
+        <div class="content-box">
+          <h3>Recipe 4: Grilled Chicken and Vegetables</h3>
+          <p>
+            A perfect dinner option, this dish features grilled chicken breasts
+            seasoned with herbs, alongside a variety of colorful grilled
+            vegetables.
+          </p>
+          <img
+            src="/Grilled Chicken and Vegetables2.jpg"
+            alt="Grilled Chicken and Vegetables"
+          />
+          <img
+            src="/Grilled Chicken and Vegetables.jpg"
+            alt="Grilled Chicken and Vegetables"
+          />
+          <img
+            src="/Grilled Chicken and Vegetables3.jpg"
+            alt="Grilled Chicken and Vegetables"
+          />
+          <div class="recipe-actions">
+            <button class="buy-button" onclick="addToCart('Grilled Chicken and Vegetables', 4)">Buy Now</button>
+          </div>
+        </div>
+        
+        <button id="hide-recipes-button">Show all Recipes</button>
+      </section>
+
+      <section id="wellness">
+        <h2>Wellness</h2>
+        <p>Discover holistic approaches to well-being and stress management.</p>
+        <p>
+          Embrace a holistic approach to wellness, including mindfulness,
+          relaxation techniques, and mental health tips. Find ways to balance
+          your mind and body for a more fulfilling and stress-free life.
+        </p>
+        <img src="/wellness.png" alt="Wellness Image" />
+        <img src="/nut.jpg" alt="Fitness Image" />
+        <div class="content-box">
+          <section id="tips">
+            <h2>Wellness Tips</h2>
+            <p>Explore helpful tips for a balanced and healthy lifestyle.</p>
+            <button id="toggle-tips-button">Show Tips</button>
+
+            <div class="tips-section" id="tipsSection">
+              <div class="tip">
+                <h3>Tip 1: Stay Hydrated</h3>
+                <p>
+                  Drink at least 8 glasses of water a day to stay hydrated and
+                  support overall well-being.
+                </p>
+                <img src="/Stay Hydrated.jpg" alt="Stay Hydrated" />
+                <img src="/Stay Hydrated2.jpg" alt="Stay Hydrated" />
+                <img src="/hydrated4.png" alt="Stay Hydrated" />
+              </div>
+
+              <div class="tip">
+                <h3>Tip 2: Get Adequate Sleep</h3>
+                <p>
+                  Ensure you get 7-8 hours of quality sleep each night for
+                  optimal physical and mental health.
+                </p>
+                <img src="/Get Adequate Sleep.jpg" alt="Get Adequate Sleep">
+                
+                <img src="/Get Adequate Sleep3.jpg" alt="Get Adequate Sleep">
+              </div>
+
+              <div class="tip">
+                <h3>Tip 3: Practice Mindfulness</h3>
+                <p>
+                  Take a few minutes each day to practice mindfulness or
+                  meditation to reduce stress.
+                </p>
+                
+                <img src="/Practice Mindfulness2.webp" alt=" Practice Mindfulness">
+               
+              </div>
+
+              <!-- Add more tips as needed -->
+            </div>
+          </section>
+        </div>
+      </section>
+      <section id="order">
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required>
+    
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+    
+            <label for="customerName">Your Name:</label>
+            <input type="text" id="customerName" name="customerName" required>
+    
+            <label for="customerEmail">Your Email:</label>
+            <input type="email" id="customerEmail" name="customerEmail" required>
+    
+            <button type="submit">Submit Order</button>
+        </form>
+        <p id="orderMessage"></p>
+    </section>
+    
+
+      <!-- Add more sections as needed -->
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Healthy Corner. All rights reserved.</p>
+      <footer>
+        <p>Contact number: 9764863757</p>
+        <p>E-mail</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+      </footer>
+    </footer>
+  </body>
+</html>
